@@ -1,6 +1,7 @@
 ---
 title: "Moving to Hugo Static Gen"
 date: 2021-06-18T01:20:04+08:00
+categories: ["cat1"]
 ---
 
 I don't believe it. It's been so long since I actually written to any blogs. I use to have lots of them and write quite regularly to some. They were primarily on Wordpress and Blogspot. But that was over more than a decade ago. 

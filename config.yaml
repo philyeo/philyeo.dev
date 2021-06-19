@@ -33,6 +33,7 @@ author:
 
 taxonomies:
   tag: tags
+  category: categories
 
 params:
   mainSections:
@@ -70,12 +71,15 @@ menu:
     - name: Blog
       url: /
       weight: 1
-    - name: Projects
-      url: /project/
+    - name: Categories
+      url: /categories/
       weight: 2
+    - name: Tags
+      url: /tags/
+      weight: 3
     - name: About
       url: /about/
-      weight: 3
+      weight: 4
 
 module:
   imports:
