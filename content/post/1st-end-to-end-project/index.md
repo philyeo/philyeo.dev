@@ -8,7 +8,8 @@ So I am now embarking on my first end to end project, while waiting to start on 
 
 1) Web scraping (API scraping if need be)
 2) API implementation with node js
-3) NOSql integration and deployment
+3) NOSQL integration 
+4) Deployment with containers (Docker)
 4) Android (and perhaps even iphone) app development and deployment
 
 I'll document my steps and experience and hope to create a tutorial of sorts from this experience. 
