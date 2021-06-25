@@ -1,6 +1,7 @@
 ---
 title: "4D web scrapping part 1"
 date: 2021-06-25T16:44:25+08:00
+tag: ["webscraping", "project"]
 ---
 
 As I mentioned earlier, I was embarking on my side project (in efforts to improve my JS knowledge). I want to consolidate all our Malaysia's 4D gaming results into a single hosted app. Thus I needed to find the sources. I know that there are 3 major betting company players:
