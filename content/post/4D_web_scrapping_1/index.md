@@ -18,7 +18,7 @@ What scraper to use?
 
 At first I was using scrapy which is a python based scarping framework. I liked it because it comes with all the bells and whistle. Once you downloaded the library, it has settings.py, config.py and much more which one can leverage on. Its also neatly and thoughtfully had all these features structured nicely for the user to implement their robot for its crawling or scraping needs. Even has the items for outputing captured data in a nice object notation form. But scrapy was acting weird for me because it seems that when the webpage was ingested into the internal object, some additional tags (\\t, \\n, and \\r) were injected into it thus rendering my xpath calls useless.
 
-After trying countless times, I decided to swith to puppeteer which is Google's javascript based scraping framework. Love it immediately. Compared to scrapy, there's less documentation and help/ resources, but that's quickly going to change. I see lots of people adopting puppeteer and its also extremely powerful and quick. I didn't have those additional tags being injected mid-stream when running the code, thus my queryselectors and xpaths all just works!!!
+After trying countless times, I decided to switch to puppeteer which is Google's javascript based scraping framework. Love it immediately. Compared to scrapy, there's less documentation and help/ resources, but that's quickly going to change. I see lots of people adopting puppeteer and its also extremely powerful and quick. I didn't have those additional tags being injected mid-stream when running the code, thus my queryselectors and xpaths all just works!!!
 
 I've my initial scraping in my github js4dscrapper repository. And its still a work in progress.
 
