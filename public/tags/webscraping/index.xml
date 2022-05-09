@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>webscraping on PhilipYeo</title>
+    <link>https://www.philyeo.dev/tags/webscraping/</link>
+    <description>Recent content in webscraping on PhilipYeo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Philip Yeo</copyright>
+    <lastBuildDate>Fri, 25 Jun 2021 16:44:25 +0800</lastBuildDate><atom:link href="https://www.philyeo.dev/tags/webscraping/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4D web scrapping part 1</title>
+      <link>https://www.philyeo.dev/2021/06/25/4d_web_scrapping_1/</link>
+      <pubDate>Fri, 25 Jun 2021 16:44:25 +0800</pubDate>
+      
+      <guid>https://www.philyeo.dev/2021/06/25/4d_web_scrapping_1/</guid>
+      <description>As I mentioned earlier, I was embarking on my side project (in efforts to improve my JS knowledge). I want to consolidate all our Malaysia&amp;rsquo;s 4D gaming results into a single hosted app. Thus I needed to find the sources. I know that there are 3 major betting company players:
+ Damacai Magnum Sports Toto  Of the 3, both Magnum and Damacai has APIs which I can use. Of these 2, Magnum API is pretty straightforward.</description>
+    </item>
+    
+  </channel>
+</rss>

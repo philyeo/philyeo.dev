@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>first post on PhilipYeo</title>
+    <link>https://www.philyeo.dev/tags/first-post/</link>
+    <description>Recent content in first post on PhilipYeo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Philip Yeo</copyright>
+    <lastBuildDate>Fri, 18 Jun 2021 01:00:02 +0800</lastBuildDate><atom:link href="https://www.philyeo.dev/tags/first-post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>https://www.philyeo.dev/2021/06/18/hello-world/</link>
+      <pubDate>Fri, 18 Jun 2021 01:00:02 +0800</pubDate>
+      
+      <guid>https://www.philyeo.dev/2021/06/18/hello-world/</guid>
+      <description>This is not my first blog. I’ve had many in the past. But I figured I want to start fresh. My attempt is to record my thoughts and also my journey to re-educate myself with the latest technology. Stay tuned.</description>
+    </item>
+    
+  </channel>
+</rss>

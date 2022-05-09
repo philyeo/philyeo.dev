@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cat1 on PhilipYeo</title>
+    <link>https://www.philyeo.dev/categories/cat1/</link>
+    <description>Recent content in cat1 on PhilipYeo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Philip Yeo</copyright>
+    <lastBuildDate>Fri, 18 Jun 2021 01:20:04 +0800</lastBuildDate><atom:link href="https://www.philyeo.dev/categories/cat1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Moving to Hugo Static Gen</title>
+      <link>https://www.philyeo.dev/2021/06/18/moving-to-hugo-static-gen/</link>
+      <pubDate>Fri, 18 Jun 2021 01:20:04 +0800</pubDate>
+      
+      <guid>https://www.philyeo.dev/2021/06/18/moving-to-hugo-static-gen/</guid>
+      <description>I don&amp;rsquo;t believe it. It&amp;rsquo;s been so long since I actually written to any blogs. I use to have lots of them and write quite regularly to some. They were primarily on Wordpress and Blogspot. But that was over more than a decade ago.
+So you can only imagine how outdated I am with all of this. And after going through some articles and youtube videos, I stumbled upon Scott Hanselman&amp;rsquo;s video about starting a static webpage with Azure at no cost.</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://www.philyeo.dev/2021/06/18/hello-world/</link>
+      <pubDate>Fri, 18 Jun 2021 01:00:02 +0800</pubDate>
+      
+      <guid>https://www.philyeo.dev/2021/06/18/hello-world/</guid>
+      <description>This is not my first blog. I’ve had many in the past. But I figured I want to start fresh. My attempt is to record my thoughts and also my journey to re-educate myself with the latest technology. Stay tuned.</description>
+    </item>
+    
+  </channel>
+</rss>
