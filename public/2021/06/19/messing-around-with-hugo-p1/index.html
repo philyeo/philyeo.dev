@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Messing Around With Hugo Part 1 &middot; Philip Yeo</title>
+        <meta name="description" content="So I have finally created my new website, fully equipped with blog, portfolio and social links. I used some simple theme but I wasn&rsquo;t able to make modification to the them and yet have it automatically build the public artifacts for the static site using Azure&rsquo;s and Git&rsquo;s automatic CI workflow integration.
+Hang on, let&rsquo;s backtrack abit. I love hugo static gen. It was love at first sight. I know I must have crawled and lived in a cave for a while and thus wasn&rsquo;t aware of this wonderful tool.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.88.1" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="Messing Around With Hugo Part 1">
+<meta property="og:description" content="So I have finally created my new website, fully equipped with blog, portfolio and social links. I used some simple theme but I wasn&rsquo;t able to make modification to the them and yet have it automatically build the public artifacts for the static site using Azure&rsquo;s and Git&rsquo;s automatic CI workflow integration.
+Hang on, let&rsquo;s backtrack abit. I love hugo static gen. It was love at first sight. I know I must have crawled and lived in a cave for a while and thus wasn&rsquo;t aware of this wonderful tool.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.philyeo.dev/2021/06/19/messing-around-with-hugo-p1/">
+        <link rel="stylesheet" href="https://www.philyeo.dev/dist/site.css">
+        <link rel="stylesheet" href="https://www.philyeo.dev/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+    </head>
+    <body>
+        
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YRXE6MJVJC"></script>
+<script>
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-YRXE6MJVJC', { 'anonymize_ip': true });
+}
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="https://www.philyeo.dev/">PhilipYeo</a>
+                            </h1>
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Twitter" aria-label="Twitter" href="https://twitter.com/philcp" rel="me" >
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/philyeo" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/philipyeo/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/categories/">Categories</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/tags/">Tags</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/about/">About</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Messing Around With Hugo Part 1</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2021-06-19" itemprop="datePublished">Sat, Jun 19, 2021</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">Philip Yeo</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 2 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>So I have finally created my new website, fully equipped with blog, portfolio and social links. I used some simple theme but I wasn&rsquo;t able to make modification to the them and yet have it automatically build the public artifacts for the static site using Azure&rsquo;s and Git&rsquo;s automatic CI workflow integration.</p>
+<p>Hang on, let&rsquo;s backtrack abit. I love hugo static gen. It was love at first sight. I know I must have crawled and lived in a cave for a while and thus wasn&rsquo;t aware of this wonderful tool. Now that I am expose to it, I just can&rsquo;t stop working on it.</p>
+<p>Got my site going here with <a href="https://www.philyeo.dev">www.philyeo.dev</a> and loving it. But in the beginning had some trouble with altering the theme. Everytime I did that, it keeps breaking the automatic workflow for integration. Build process would fail somehow. I tried otherways to get around it. But it seems to point to some convoluted git process that one needs to undertake. My level of git hasn&rsquo;t quite reach that sophistication yet, so I&rsquo;ll stay clear of that for now.</p>
+<p>But I did manage to find out about using Go modules with one&rsquo;s hugo project. Instead of relying on theme param in the config.toml file, simply use the go module import feature. Here I have it for my config.yaml file instead of toml version</p>
+<pre tabindex="0"><code>module:
+  imports:
+  - path: github.com/jbub/ghostwriter
+</code></pre><p>If you have toml file, than use this instead</p>
+<pre tabindex="0"><code>[[module.imports]]
+    path = &quot;path-to-theme&quot;
+    # project theme
+</code></pre><p>Just don&rsquo;t forget to comment the theme param in the toml / yaml file.</p>
+<p>This also got me thinking. You can write a webservice that allows you to create a frontend to create post without having to open your VSCode and them push to git for posting your articles. Something I&rsquo;d be interested to work on.</p>
+
+</div>
+
+        <footer class="post-footer clearfix">
+    
+
+    <div class="share">
+        
+            <a class="icon-twitter" href="https://twitter.com/share?text=Messing%20Around%20With%20Hugo%20Part%201&url=https%3a%2f%2fwww.philyeo.dev%2f2021%2f06%2f19%2fmessing-around-with-hugo-p1%2f"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share on Twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+        
+
+        
+            <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.philyeo.dev%2f2021%2f06%2f19%2fmessing-around-with-hugo-p1%2f"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" aria-label="Share on Facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+        
+
+
+        
+            <a class="icon-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&title=Messing%20Around%20With%20Hugo%20Part%201&url=https%3a%2f%2fwww.philyeo.dev%2f2021%2f06%2f19%2fmessing-around-with-hugo-p1%2f&summary="
+               onclick="window.open(this.href, 'linkedin-share', 'width=554,height=481');return false;" aria-label="Share on LinkedIn">
+               <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+        
+    </div>
+</footer>
+
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="https://www.philyeo.dev/">PhilipYeo</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2022 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://www.philyeo.dev/js/jquery-1.11.3.min.js"></script>
+        <script src="https://www.philyeo.dev/js/jquery.fitvids.js"></script>
+        <script src="https://www.philyeo.dev/js/scripts.js"></script>
+    </body>
+</html>
+
