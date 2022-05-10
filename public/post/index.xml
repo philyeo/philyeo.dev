@@ -7,16 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Philip Yeo</copyright>
-    <lastBuildDate>Tue, 10 May 2022 14:57:02 +0800</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Testdemo</title>
-      <link>/2022/05/10/testdemo/</link>
-      <pubDate>Tue, 10 May 2022 14:57:02 +0800</pubDate>
-      
-      <guid>/2022/05/10/testdemo/</guid>
-      <description>this is a demo for ganesh and anu</description>
-    </item>
-    
+    <lastBuildDate>Tue, 10 May 2022 13:45:11 +0800</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Site Uplift</title>
       <link>/2022/05/10/site-uplift/</link>
