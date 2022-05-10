@@ -4,7 +4,7 @@
 <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Site Uplift | PhilYeo.DEV</title>
 <meta name="keywords" content="">
 <meta name="description" content="So there&rsquo;s a few changes that&rsquo;s taking place right now. My site has been down for quite awhile now. Mainly due to issues with having to use azure&rsquo;s contianer (for the CI/CD with hugo) and integration with my github repo for the hugo directory and public static generate pages.
@@ -58,6 +58,81 @@ There&rsquo;s a few things I have done now. As I&rsquo;ve also been experimentin
 
     </style>
 </noscript>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YRXE6MJVJC"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-YRXE6MJVJC', { 'anonymize_ip': false });
+}
+</script>
+<meta property="og:title" content="Site Uplift" />
+<meta property="og:description" content="So there&rsquo;s a few changes that&rsquo;s taking place right now. My site has been down for quite awhile now. Mainly due to issues with having to use azure&rsquo;s contianer (for the CI/CD with hugo) and integration with my github repo for the hugo directory and public static generate pages.
+There&rsquo;s a few things I have done now. As I&rsquo;ve also been experimenting with my own personal cloud using AWS EC2 with S3 (I am using Next as my personal cloud app of choice), I decided that its also timely that I&rsquo;d switch from Azure and Github spaces to AWS." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/2022/05/10/site-uplift/" />
+<meta property="og:image" content="img/amplify.png" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-05-10T13:45:11&#43;08:00" />
+<meta property="article:modified_time" content="2022-05-10T13:45:11&#43;08:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="img/amplify.png" />
+<meta name="twitter:title" content="Site Uplift"/>
+<meta name="twitter:description" content="So there&rsquo;s a few changes that&rsquo;s taking place right now. My site has been down for quite awhile now. Mainly due to issues with having to use azure&rsquo;s contianer (for the CI/CD with hugo) and integration with my github repo for the hugo directory and public static generate pages.
+There&rsquo;s a few things I have done now. As I&rsquo;ve also been experimenting with my own personal cloud using AWS EC2 with S3 (I am using Next as my personal cloud app of choice), I decided that its also timely that I&rsquo;d switch from Azure and Github spaces to AWS."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Posts",
+      "item": "/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "Site Uplift",
+      "item": "/2022/05/10/site-uplift/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Site Uplift",
+  "name": "Site Uplift",
+  "description": "So there\u0026rsquo;s a few changes that\u0026rsquo;s taking place right now. My site has been down for quite awhile now. Mainly due to issues with having to use azure\u0026rsquo;s contianer (for the CI/CD with hugo) and integration with my github repo for the hugo directory and public static generate pages.\nThere\u0026rsquo;s a few things I have done now. As I\u0026rsquo;ve also been experimenting with my own personal cloud using AWS EC2 with S3 (I am using Next as my personal cloud app of choice), I decided that its also timely that I\u0026rsquo;d switch from Azure and Github spaces to AWS.",
+  "keywords": [
+    
+  ],
+  "articleBody": "So there’s a few changes that’s taking place right now. My site has been down for quite awhile now. Mainly due to issues with having to use azure’s contianer (for the CI/CD with hugo) and integration with my github repo for the hugo directory and public static generate pages.\nThere’s a few things I have done now. As I’ve also been experimenting with my own personal cloud using AWS EC2 with S3 (I am using Next as my personal cloud app of choice), I decided that its also timely that I’d switch from Azure and Github spaces to AWS. So for my new setup, I am changing my hugo theme (had issues with ghostwriter) and am using AWS Amplify with AWS for my deployment and CI/CD process. I will be using Route53 to connect my site domain to the internally generated URL.\n",
+  "wordCount" : "142",
+  "inLanguage": "en",
+  "image":"img/amplify.png","datePublished": "2022-05-10T13:45:11+08:00",
+  "dateModified": "2022-05-10T13:45:11+08:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/2022/05/10/site-uplift/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "PhilYeo.DEV",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class="" id="top">
