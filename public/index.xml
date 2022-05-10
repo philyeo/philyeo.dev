@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>PhilipYeo</title>
+    <link>/</link>
+    <description>Recent content on PhilipYeo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Philip Yeo</copyright>
+    <lastBuildDate>Tue, 25 Jan 2022 14:19:44 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Growing Your Own Food</title>
+      <link>/post/growing-your-own-food/</link>
+      <pubDate>Tue, 25 Jan 2022 14:19:44 +0800</pubDate>
+      
+      <guid>/post/growing-your-own-food/</guid>
+      <description>So some of the things we in Malaysia can grow easily given our climate. Just need to adapt our eating habits. If we can grow these plants, we need not worry of the food shortage and rising food price too much. You can google this plants to find out more. But I&amp;rsquo;ve compiled a list here which I want to share. Sometimes you can find people selling the seeds or cutting on Shopee / Lazada.</description>
+    </item>
+    
+    <item>
+      <title>4D web scrapping part 1</title>
+      <link>/post/4d_web_scrapping_1/</link>
+      <pubDate>Fri, 25 Jun 2021 16:44:25 +0800</pubDate>
+      
+      <guid>/post/4d_web_scrapping_1/</guid>
+      <description>As I mentioned earlier, I was embarking on my side project (in efforts to improve my JS knowledge). I want to consolidate all our Malaysia&amp;rsquo;s 4D gaming results into a single hosted app. Thus I needed to find the sources. I know that there are 3 major betting company players:
+ Damacai Magnum Sports Toto  Of the 3, both Magnum and Damacai has APIs which I can use. Of these 2, Magnum API is pretty straightforward.</description>
+    </item>
+    
+    <item>
+      <title>1st End to End Project</title>
+      <link>/post/1st-end-to-end-project/</link>
+      <pubDate>Mon, 21 Jun 2021 19:10:47 +0800</pubDate>
+      
+      <guid>/post/1st-end-to-end-project/</guid>
+      <description>So I am now embarking on my first end to end project, while waiting to start on my new gig coming next month (will update that later). This mini project is basically consolidating 4D (Malaysian lotto) results from the 3 main players into a single page (perhaps a mobile app). Basically I want to be hitting this technicalities / topics:
+ Web scraping (API scraping if need be) API implementation with node js NOSQL integration Deployment with containers (Docker) Android (and perhaps even iphone) app development and deployment  I&amp;rsquo;ll document my steps and experience and hope to create a tutorial of sorts from this experience.</description>
+    </item>
+    
+    <item>
+      <title>Messing Around With Hugo Part 1</title>
+      <link>/post/messing-around-with-hugo-p1/</link>
+      <pubDate>Sat, 19 Jun 2021 14:57:56 +0800</pubDate>
+      
+      <guid>/post/messing-around-with-hugo-p1/</guid>
+      <description>So I have finally created my new website, fully equipped with blog, portfolio and social links. I used some simple theme but I wasn&amp;rsquo;t able to make modification to the them and yet have it automatically build the public artifacts for the static site using Azure&amp;rsquo;s and Git&amp;rsquo;s automatic CI workflow integration.
+Hang on, let&amp;rsquo;s backtrack abit. I love hugo static gen. It was love at first sight. I know I must have crawled and lived in a cave for a while and thus wasn&amp;rsquo;t aware of this wonderful tool.</description>
+    </item>
+    
+    <item>
+      <title>Creating a Url Shorterner Application</title>
+      <link>/post/creating-a-url-shorterner-application/</link>
+      <pubDate>Fri, 18 Jun 2021 09:55:57 +0800</pubDate>
+      
+      <guid>/post/creating-a-url-shorterner-application/</guid>
+      <description>Recently I was given a task to complete – create your own URL shorterner application. If you remember bit.ly or tiny.url, these are clearly examples of URL shorterner application. Its not overly complicated. Although, it wasn’t something that I have done before. But given my recent scouring of knowledge in Javascript and API development, I told myself it should be an interesting project to take on.
+Initially, I wanted to use Java and Java spring boot as the foundation framework for building the API.</description>
+    </item>
+    
+    <item>
+      <title>Moving to Hugo Static Gen</title>
+      <link>/post/moving-to-hugo-static-gen/</link>
+      <pubDate>Fri, 18 Jun 2021 01:20:04 +0800</pubDate>
+      
+      <guid>/post/moving-to-hugo-static-gen/</guid>
+      <description>I don&amp;rsquo;t believe it. It&amp;rsquo;s been so long since I actually written to any blogs. I use to have lots of them and write quite regularly to some. They were primarily on Wordpress and Blogspot. But that was over more than a decade ago.
+So you can only imagine how outdated I am with all of this. And after going through some articles and youtube videos, I stumbled upon Scott Hanselman&amp;rsquo;s video about starting a static webpage with Azure at no cost.</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>/post/hello-world/</link>
+      <pubDate>Fri, 18 Jun 2021 01:00:02 +0800</pubDate>
+      
+      <guid>/post/hello-world/</guid>
+      <description>This is not my first blog. I’ve had many in the past. But I figured I want to start fresh. My attempt is to record my thoughts and also my journey to re-educate myself with the latest technology. Stay tuned.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/page/about/</link>
+      <pubDate>Fri, 03 Apr 2015 02:13:50 +0000</pubDate>
+      
+      <guid>/page/about/</guid>
+      <description>Things about me.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/page/contact/</link>
+      <pubDate>Fri, 03 Apr 2015 02:13:50 +0000</pubDate>
+      
+      <guid>/page/contact/</guid>
+      <description>How to contact me.</description>
+    </item>
+    
+  </channel>
+</rss>
